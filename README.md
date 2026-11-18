@@ -8,7 +8,7 @@ Tema: Sistema de Comandas para Restaurante
         Este projeto tem como objetivo o desenvolvimento de um sistema de comandas para restaurante através da linguagem python.
 
 
-- Base e Estrutura de dados: (Hubner)
+- Base e Estrutura de dados: (Guilherme Eduardo)
 
 
 * Base e estrutura de memória: Definição do formato da base de dados (Dicionários e listas) para representar os registros de informações.
@@ -24,7 +24,7 @@ ________________
 
 
 
--Entrada(Cadastro, Validações e Tratamento de Erros): (Leandro)
+-Entrada(Cadastro, Validações e Tratamento de Erros): (Guilherme Leandro)
 
 
    * Cadastro: Criar função para cadastrar os dados do novo registro via terminal.
@@ -46,7 +46,7 @@ ________________
 
 
 
--Visão(Listagem e Consulta/Pesquisa) (Sophia)
+-Visão(Listagem e Consulta/Pesquisa): (Sofia)
 
 
    * Listagem (`listar_registros()`): Desenvolver a exibição organizada de todos os registros armazenados. Tratar o caso de lista vazia com mensagem amigável.
@@ -61,7 +61,7 @@ ________________
 
 
 
--Fechamento(Alteração, Exclusão e Interface) (Matheus)
+-Fechamento(Alteração, Exclusão e Interface): (Matheus)
 
 
 
