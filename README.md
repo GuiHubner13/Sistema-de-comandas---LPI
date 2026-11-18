@@ -64,7 +64,7 @@ ________________
 -Fechamento(Alteração, Exclusão e Interface) (Matheus)
 
 
-A FAZER
+
    * Fechamento do código e valor final dos produtos com base na comanda 
 
 
