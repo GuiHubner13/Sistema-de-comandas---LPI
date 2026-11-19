@@ -81,10 +81,9 @@ ________________
 
 ----------------------Estrutura de Dados(`base_dados.py`)-------------------------------------
 
-O módulo `base_dados.py` já está implementado e deve ser importado pelos demais arquivos do projeto:
+O módulo `base_dados.py` já está implementado e deve ser importado pelos demais arquivos do projeto assim:
 
-```python
-from base_dados import carregar_dados, salvar_dados ASSIM QUE É FEITA A IMPORTAÇÃO DAS FUNÇÕES DO ARQUIVO
+"from base_dados import carregar_dados, salvar_dados" 
 
 ---------------------- Como ficou definida a estrutura das comandas no código: ---------------------------
 ---------------------- MANTER OS IDs DAS COMANDAS COMO STRING PRA O FUNCIONAMENTO CORRETO DO CÓDIGO! ----------------
