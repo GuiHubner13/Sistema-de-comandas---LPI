@@ -75,3 +75,27 @@ ________________
 
 
    * Construir um loop principal (`while True`) com opções para sair, integrando todas as funções dos 4 participantes com tratamento de entradas inválidas no menu.
+
+
+---
+
+----------------------Estrutura de Dados(`base_dados.py`)-------------------------------------
+
+O módulo `base_dados.py` já está implementado e deve ser importado pelos demais arquivos do projeto:
+
+```python
+from base_dados import carregar_dados, salvar_dados ASSIM QUE É FEITA A IMPORTAÇÃO DAS FUNÇÕES DO ARQUIVO
+
+---------------------- Como ficou definida a estrutura das comandas no código: ---------------------------
+---------------------- MANTER OS IDs DAS COMANDAS COMO STRING PRA O FUNCIONAMENTO CORRETO DO CÓDIGO! ----------------
+---------------------- Sempre que uma comanda for cadastrada, alterada ou excluída, chamem salvar_dados(comandas) logo em seguida ------------------------------
+comandas = {
+    "182": {
+        "cliente": "Alessandro Santos",
+        "itens": [
+            {"produto": "X-Salada", "quantidade": 2, "preco": 25.50},
+            {"produto": "Coca-Cola", "quantidade": 1, "preco": 6.00}
+        ]
+    }
+}
+
