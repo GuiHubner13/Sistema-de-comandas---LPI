@@ -81,11 +81,11 @@ ________________
 
 
 
---------------- Estrutura de Dados(`base_dados.py`) --------------------------------------------------------------------------------------
+--------------- Estrutura de Dados(`base_dados.py`) -----------------------------------------------------------------------------
 
---------------- MANTER OS IDs DAS COMANDAS COMO STRING PRA O FUNCIONAMENTO CORRETO DO CÓDIGO! --------------------------------------------
+--------------- MANTER OS IDs DAS COMANDAS COMO STRING PRA O FUNCIONAMENTO CORRETO DO CÓDIGO! -----------------------------------
 
---------------- Sempre que uma comanda for cadastrada, alterada ou excluída, chamem salvar_dados(comandas) logo em seguida ---------------
+--------------- Sempre que uma comanda for cadastrada, alterada ou excluída, chamem salvar_dados(comandas) logo em seguida ------
 
 
 O módulo `base_dados.py` já está implementado e deve ser importado pelos demais arquivos do projeto assim:
