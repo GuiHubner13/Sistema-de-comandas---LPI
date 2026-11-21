@@ -79,7 +79,7 @@ ________________
 
 ---
 
-
+Atualização 1.1:
 
 --------------- Estrutura de Dados(`base_dados.py`) -----------------------------------------------------------------------------
 
@@ -104,4 +104,10 @@ comandas = {
         ]
     }
 }
+
+Atualização 1.2:
+
+base dados.py foi atualizada incluindo um tratamento de erro para os arquivos .json
+
+também foi implementado o sistema de entrada e armazenamento de dados das comandas no arquivo Cardapy1.2.py
 
