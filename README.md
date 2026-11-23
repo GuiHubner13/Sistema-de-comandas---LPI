@@ -370,3 +370,35 @@ if __name__ == "__main__":
     consultar_registro(dados)
 
 ```
+
+
+Atualização 1.4 (Matheus):
+
+Foi implementado o arquivo Cardapy1.4.py, com o fechamento, a alteração, a exclusão, e o menu interativo. Ele integra as funções em geral e é o arquivo que deve ser executado para rodar o sistema:
+
+python Cardapy1.4.py
+
+
+```
+fechar_comanda(comandas):
+```
+localiza a comanda por ID ou nome do cliente, calcula o valor final com base nos itens e, após confirmação, muda o status para "fechada", grava o total e salva. Não fecha comanda já fechada nem sem itens.
+```
+alterar_comanda(comandas):
+```
+permite alterar o nome do cliente/mesa e adicionar, alterar ou remover itens. Recalcula o total e salva após cada alteração. Comandas fechadas não podem ser alteradas.
+```
+excluir_comanda(comandas):
+```
+ localiza a comanda por ID ou nome, pede confirmação, remove e atualiza o arquivo.
+ ```
+menu_principal():
+```
+ loop principal (while True) com as opções:
+```
+1 - Cadastrar | 2 - Listar | 3 - Consultar | 4 - Alterar | 5 - Excluir | 6 - Fechar | 0 - Sair
+Opções inválidas no menu são tratadas sem interromper o sistema.
+```
+Observe-se que:
+- Os IDs continuam como "string".
+- Reaproveita cadastrar_comanda e as validações do Cardapy1.2.py, e listar_registros / consultar_registro do visao.py, sem alterá-los.
