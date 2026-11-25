@@ -402,3 +402,14 @@ Opções inválidas no menu são tratadas sem interromper o sistema.
 Observe-se que:
 - Os IDs continuam como "string".
 - Reaproveita cadastrar_comanda e as validações do Cardapy1.2.py, e listar_registros / consultar_registro do visao.py, sem alterá-los.
+
+Alpha Release 1.5:
+
+## Mudanças na Unificação do Sistema
+
+Para reunir os módulos em um único arquivo funcional mantendo a lógica original do **Cardapy**, foram feitos os seguintes ajustes:
+
+- **Consolidação dos `imports` no topo:** os módulos `json`, `math` e `os` foram reunidos no início do arquivo e as importações internas entre módulos (`base_dados`, `cardapy` e `visao`) foram removidas para evitar erros de importação quando o sistema roda em um arquivo único.
+- **Limpeza de texto não comentado:** trechos de texto soltos sem `#` que estavam colados no código foram removidos para evitar erros de sintaxe (`SyntaxError`).
+- **Ponto de entrada único no menu principal:** o bloco `if __name__ == "__main__":` foi centralizado para iniciar `menu_principal()`, conectando cadastro, listagem, consulta, alteração, exclusão e fechamento de comandas.
+- **Preservação das regras de negócio:** as funções de leitura/escrita em JSON, validações de entrada, geração/validação de ID único, cálculos de subtotal/total e controle de status das comandas foram mantidos conforme o código original.
